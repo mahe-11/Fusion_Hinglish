@@ -1,0 +1,8 @@
+streamlit>=1.37
+requests>=2.32
+Pillow>=10.0
+
+!pip install -U -q "google-genai" "google-auth==2.47.0"
+!pip install -q openai pandas tqdm
+!pip install anthropic
+
