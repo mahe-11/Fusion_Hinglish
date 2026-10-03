@@ -27,6 +27,8 @@ The system is designed around Hinglish and Devanagari meme analysis, with separa
 
 ---
 
+
+
 ## Overview
 
 Memes often communicate meaning through a combination of text, images, symbols, expressions, and contextual references. Analysing only the text or only the visual content may miss important signals.
@@ -46,17 +48,17 @@ The application provides a Streamlit interface where users can upload a meme and
 
 ### Overall Multi-Agent Architecture
 
-![Multi-Fusion Architecture](<img width="1681" height="936" alt="Multi_Fusion Architecture2" src="https://github.com/user-attachments/assets/2a45176c-1f4c-4d6d-a3be-89f607d7ee5b" />
+![Multi-Fusion Architecture]<img width="1681" height="936" alt="Multi_Fusion Architecture2" src="https://github.com/user-attachments/assets/2a45176c-1f4c-4d6d-a3be-89f607d7ee5b" />
 )
 
 ### Text Agent Architecture
 
-![Text Agent Architecture](<img width="1024" height="1536" alt="Text_Agent_Arch" src="https://github.com/user-attachments/assets/db08fdd8-e6be-4773-b3d4-e49e87a00396" />
+![Text Agent Architecture]<img width="1024" height="1536" alt="Text_Agent_Arch" src="https://github.com/user-attachments/assets/db08fdd8-e6be-4773-b3d4-e49e87a00396" />
 )
 
 ### Image Agent Architecture
 
-![Image Agent Architecture](<img width="1024" height="1536" alt="Image_Agent_arch" src="https://github.com/user-attachments/assets/55575153-2cf2-4faf-aca9-c67f7e3bbddc" />
+![Image Agent Architecture]<img width="1024" height="1536" alt="Image_Agent_arch" src="https://github.com/user-attachments/assets/55575153-2cf2-4faf-aca9-c67f7e3bbddc" />
 )
 
 ### Scene Graph Agent Architecture
@@ -99,3 +101,41 @@ The application follows this workflow:
              |             |             |
              v             v             v
            Label         Summary       Reasoning
+## Project Structure
+```
+
+```text
+FusionApp/
+│
+├── agents/
+│   ├── __init__.py
+│   ├── text_agent.py
+│   ├── image_agent.py
+│   ├── scenegraph_agent.py
+│   └── fusion_agent.py
+│
+├── services/
+│   ├── __init__.py
+│   └── agent_api_calls.py
+│
+├── Dataset/
+│   ├── English/
+│   │   └── Test_English/
+│   │
+│   ├── Hindi/
+│   │   └── test/
+│   │
+│   └── Chinese/
+│       └── Test_images_chinese/
+│
+├── fusion_app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── docs/
+    └── architecture/
+        ├── Multi_Fusion Architecture2.png
+        ├── Text_Agent_Arch.png
+        ├── Image_Agent_arch.png
+        └── SceneGraph_arch.png
