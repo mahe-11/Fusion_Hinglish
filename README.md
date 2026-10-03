@@ -46,21 +46,25 @@ The application provides a Streamlit interface where users can upload a meme and
 
 ### Overall Multi-Agent Architecture
 
-![Multi-Fusion Architecture](docs/architecture/Multi_Fusion%20Architecture2.png)
+![Multi-Fusion Architecture](<img width="1681" height="936" alt="Multi_Fusion Architecture2" src="https://github.com/user-attachments/assets/2a45176c-1f4c-4d6d-a3be-89f607d7ee5b" />
+)
 
 ### Text Agent Architecture
 
-![Text Agent Architecture](docs/architecture/Text_Agent_Arch.png)
+![Text Agent Architecture](<img width="1024" height="1536" alt="Text_Agent_Arch" src="https://github.com/user-attachments/assets/db08fdd8-e6be-4773-b3d4-e49e87a00396" />
+)
 
 ### Image Agent Architecture
 
-![Image Agent Architecture](docs/architecture/Image_Agent_arch.png)
+![Image Agent Architecture](<img width="1024" height="1536" alt="Image_Agent_arch" src="https://github.com/user-attachments/assets/55575153-2cf2-4faf-aca9-c67f7e3bbddc" />
+)
 
 ### Scene Graph Agent Architecture
 
-![Scene Graph Architecture](docs/architecture/SceneGraph_arch.png)
+![Scene Graph Architecture]<img width="1024" height="1536" alt="SceneGraph_arch" src="https://github.com/user-attachments/assets/7e294e9c-46db-4b11-872a-c060dbd48cb7" />
+)
 
-> **Note:** Place the four supplied architecture images inside `docs/architecture/` using the filenames shown above. If you use different filenames, update the image paths in this README.
+> 
 
 ---
 
